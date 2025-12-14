@@ -1,1 +1,1 @@
-CREATE TYPE name_type AS ENUM ('perferred', 'government');
+CREATE TYPE person_name_type AS ENUM ('perferred', 'government');

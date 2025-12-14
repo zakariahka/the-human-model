@@ -1,0 +1,1 @@
+CREATE TYPE name_type AS ENUM ('perferred', 'government');

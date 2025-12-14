@@ -1,7 +1,7 @@
 CREATE TABLE person_name (
 	person_id UUID NOT NULL REFERENCES person(person_id),
 	person_name_id UUID PRIMARY KEY,
-	first_name text,
+	first_name text NOT NULL,
 	middle_name text,
 	last_name text,
 	name_type person_name_type,

@@ -1,5 +1,5 @@
 CREATE TABLE location (
-  	location_id uuid PRIMARY KEY,
+  	location_id UUID PRIMARY KEY,
 	street_address text,
 	city text,
 	state_province text,

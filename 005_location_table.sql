@@ -5,6 +5,6 @@ CREATE TABLE location (
 	state_province text,
 	zip_code text,
 	apartment text,
-	country text,
+	country_id UUID REFERENCES country(country_id),
 	coords point
 );

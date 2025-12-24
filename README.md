@@ -39,7 +39,7 @@ The schema is intentionally **normalized and explicit**:
 - Optional relationships are represented by nullable foreign keys  
 - One-time events (like death) are enforced with **0..1 semantics** using primary keys  
 
-The goal is **correctness, clarity, and extensibility** — not convenience.
+The goal is **correctness, clarity, and extensibility** NOT convenience.
 
 ---
 
